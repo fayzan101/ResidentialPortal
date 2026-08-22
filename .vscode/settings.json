@@ -1,4 +1,13 @@
 {
-    "js/ts.tsdk.path": "node_modules\\typescript\\lib",
-    "folder-color.pathColors": []
+  "js/ts.tsdk.path": "node_modules\\typescript\\lib",
+  "folder-color.pathColors": [],
+  "task.allowAutomaticTasks": true,
+  "debug.openDebug": "neverOpen",
+  "terminal.integrated.inheritEnv": false,
+  "tasks": {
+    "label": "lint on open",
+    "type": "shell",
+    "command": "npm run lint",
+    "runOn": "folderOpen"
+  }
 }

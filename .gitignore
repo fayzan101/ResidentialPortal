@@ -8,6 +8,5 @@ coverage/
 *.log
 *.tsbuildinfo
 .idea/
-.vscode/
 *.sublime-project
 *.sublime-workspace
